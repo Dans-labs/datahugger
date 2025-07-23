@@ -41,8 +41,8 @@ class DataverseDataset(DatasetDownloader):
     # paths to file attributes
     ATTR_NAME_JSONPATH = "filename"
     ATTR_SIZE_JSONPATH = "filesize"
-    ATTR_HASH_JSONPATH = "md5"
-    ATTR_HASH_TYPE_VALUE = "md5"
+    ATTR_HASH_JSONPATH = "checksum.value"
+    ATTR_HASH_TYPE_JSONPATH = "checksum.type"
 
     @property
     def API_URL_META(self):
