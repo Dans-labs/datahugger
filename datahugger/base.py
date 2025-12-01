@@ -322,6 +322,7 @@ class DatasetDownloader:
                         "size": self._get_attr_size(f),
                         "hash": self._get_attr_hash(f),
                         "hash_type": self._get_attr_hash_type(f),
+                        "raw_metadata": f,
                     }
                 )
 
